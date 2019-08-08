@@ -1,0 +1,107 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.navbar-brand{
+    font-weight: 900;
+}
+
+nav.shift ul li a {
+    position:relative !important;
+    z-index: 1 !important;
+    color: #bababa !important;
+    font-size: 1.1rem !important;
+    font-weight: 800 !important;
+  }
+  nav.shift ul li a:hover {
+    color: #c40a22 !important;
+    transition: .2s !important;
+  }
+  
+  nav.shift ul li a:hover:after {
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: 100% !important;
+    transition: .2s !important;
+  }
+  
+  .first {
+      color: #c40a22
+  }
+
+  .third{
+      color: #c40a22
+  }
+
+  .name{
+      font-weight: 800;
+  }
+  .my-name{
+      font-weight: 900;
+      font-size: 3rem;
+  }
+
+  .club{
+      position: absolute !important;
+      left: -58rem !important;
+      top: 6rem !important;
+  }
+
+  .diamond{
+    left: -58rem!important;
+    top: 19rem!important;
+
+  }
+
+  .hearts{
+      top: 6rem !important;
+      left: -17rem !important;
+  }
+
+  .spade{
+    left: -17rem !important;
+    top: 19rem !important;
+}
+  
+.own-intro{
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.km-button{
+    padding-bottom: 10rem;
+}
+
+.button {
+    color: #c40a22;
+    /* overflow: hidden; */
+    font-variant: all-petite-caps;
+    text-align: center;
+    background-color: transparent;
+    font-size: 1.7rem;
+    font-weight: 900;
+    border: 2px solid #000;
+    box-shadow: 0 0 0 0 #000;
+    transition: 0.3s ease-in-out;
+    width: 15rem;
+    height: 3.5rem;
+    
+  }
+  .button:before, .button:after,
+  .button span:before, .button span:after {
+    transition: 0.3s ease-in-out;
+  }
+  .button:hover {
+    letter-spacing: 0.5px;
+  }
+  
+  .button1:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0 rgba(196, 10, 34, 0.5), 9px 9px 0 rgba(196, 10, 34, 0.5), 8px 8px 0 rgba(196, 10, 34, 0.5), 7px 7px 0 rgba(196, 10, 34, 0.5), 6px 6px 0 rgba(196, 10, 34, 0.5), 5px 5px 0 rgba(196, 10, 34, 0.5), 4px 4px 0 rgba(196, 10, 34, 0.5), 3px 3px 0 rgba(196, 10, 34, 0.5), 2px 2px 0 rgba(196, 10, 34, 0.5), 1px 1px 0 rgba(196, 10, 34, 0.5);
+  }
+  
